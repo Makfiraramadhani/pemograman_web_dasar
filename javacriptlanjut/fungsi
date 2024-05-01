@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function displaymessage()
+        {
+            alert("Hello world!");
+        }
+    </script>  
+</head>   
+
+<body>
+<form>
+    <input type="button" value="Clickme!" onclick="displaymessage()"
+</form>
+</body>
+</html>    
+

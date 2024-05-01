@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function tampilkota(provinsi)
+    {
+        //source code untuk tampil kota.
+        alert("tampil kota provinsi"+provinsi);
+    }
+    </script>
+</head>
+
+<body>
+    <form>
+        <select nama="provinsi" onchange="tampilkota(this.value)";>
+            <option value="jabar">jawa barat</option>
+            <option value="jabar">jawa tengah</option>
+        </select>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+function starttime()
+{
+    var today=new DataTransfer();
+    var h=today.gethours();
+    var m=today.getminutes();
+    var s=today.getseconds();
+    //menambahkan angka 0 jika nilai <10
+    h=checktime(h);
+    m=checktime(m);
+    s=checktime(s);
+    document.getElementById('jam').innerHTML=h+":"+m+":"+s;
+    t=settimeout('starttime()',500);
+}
+function checktime(i)
+{
+    if (i<10)
+    {
+        i="0" + i;
+    }
+    return i;
+}

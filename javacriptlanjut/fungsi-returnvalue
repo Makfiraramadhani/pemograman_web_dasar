@@ -1,0 +1,17 @@
+<html>
+<Head>
+    <script type="text/javascript">
+        function kali(a,b)
+        {
+            return a*b;
+        }
+    </script>
+</Head>
+
+<body>
+    <script  type="text/javascript">
+        var hasil = kali (4,3);
+        document.write(hasil);
+    </script>
+</body>
+</html>

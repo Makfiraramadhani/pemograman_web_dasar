@@ -1,0 +1,23 @@
+function validate_required(field,alerttxt)
+{
+    with (field)
+    {
+        if(value==null//value=="")
+    }
+    else
+        {
+            return true;
+        }
+    }
+}
+function validate_form(thisform)
+{
+    with (0thisform)
+    {
+        if (validation_required(email,"email harus diisi")==false)
+        {
+            email.focus();
+            return false;
+        }
+    }
+}

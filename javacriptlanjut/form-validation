@@ -1,0 +1,11 @@
+<html>
+<head>
+    <script type="text/javascript" src="validasi.js"></script>
+</head>
+<body>
+    <form action"submit.htm" onsubmit="return validasi_form(this)" method="post">
+    Email; <input type="text" name="email" soze="30">
+    <input typr="submit" value="submit">
+    </form>
+</body>
+</html>

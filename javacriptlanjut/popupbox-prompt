@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    var bil1, bil2, jml;
+
+    bil1 = prompt("bilangan 1", "0");
+    bil2 = prompt("bilangan 2", "0");
+    jml = bil1 + bil2;
+
+    document.write("<h2>"+jml+"</h2>");
+</script>
