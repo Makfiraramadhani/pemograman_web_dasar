@@ -22,7 +22,8 @@
     <!-- Header -->
     <nav class="navbar navbar-expand bg-primary navbar-light">
       <div class="container-lg">
-        <a class="navbar-brand" href="#"> <i class="bi bi-emoji-kiss"></i></i> Navbar</a
+        <a class="navbar-brand" href="#"
+          ><i class="bi bi-emoji-kiss"></i> Navbar</a
         >
         <button
           class="navbar-toggler"
@@ -129,11 +130,11 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link link-dark" href="menu1.html"
-                        > <i class="bi bi-database"></i></i> Data</a
+                        > <i class="bi bi-database"></i></i> Table</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-dark" href="menu2.html"><i class="bi bi-list"></i> Menu 2</a
+                      <a class="nav-link link-dark" href="menu2.html"> <i class="bi bi-list"></i></i>Menu 2</a
                       >
                     </li>
                     <li class="nav-item">
@@ -150,31 +151,6 @@
         <!-- end Sidebar Navigasi-->
 
         <!--Content-->
-        <div class="card mt-2" style="width: 18rem;">
-            <img src="jenoo.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Jeno</h5>
-              <br>Jeno lahir di Incheon, Korea Selatan, pada
-               23 April 2000 dan kemudian besar di Ilsandong-gu, 
-               Goyang-si, Gyeonggi. Sejak kecil, Jeno merupakan bintang 
-               iklan beberapa produk dan terbiasa tampil di televisi.
-               <br>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card mt-2" style="width: 18rem;">
-            <img src="jaemin.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Jaemin</h5>
-              <br>Lee Tae-yong (Hangul: 이태용; 
-              lahir 1 Juli 1995),[2] dikenal dengan mononimnya Taeyong,
-              adalah seorang rapper utama, penulis lagu, penari utama, 
-              koreografer, visual, produser, composer, model, editor, 
-              YouTuber, influencer, dan penyanyi asal Korea Selatan.
-               <br>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
         <br>
         <br>
         <br>
@@ -195,17 +171,11 @@
         <br>
         <br>
         <br>
+
         <!--end Content-->
       </div>
-
-      <!-- Footer-->
-      <div class="text-center bg-light fixed-buttom py-2">
-        Copyright 2024 Makfira Ramadhani
-      </div>
-      <!-- end Footer -->
-
-      <!-- Modal -->
-      <div
+<!-- Modal -->
+<div
 class="modal fade modal-xl"
 id="exampleModal"
 tabindex="-1"
@@ -298,7 +268,7 @@ aria-hidden="true"
       if($('body').hasClass('dashboard-page')) {
         $('.nav-link[href="index.html"]').addClass('active');
       }else if($('body').hasClass('table-page')){
-        $('.nav-link[href="table.html"]').addClass('active');
+        $('.nav-link[href="menu1.html"]').addClass('active');
       }else if($('body').hasClass('table-page')){
         $('.nav-link[href="menu2.html"]').addClass('active');
       }
@@ -308,4 +278,9 @@ aria-hidden="true"
     });
   </script>
   </body>
+  
+      <!-- Footer-->
+      <footer><div class="text-center bg-light fixed-buttom py-2">
+        Copyright 2024 Makfira Ramadhani
+      <!-- end Footer -->
 </html>
